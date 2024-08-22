@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+
+<listeners>
+<listener class-name="com.Utility.Listeners"></listener>
+</listeners>
+	
+	<test thread-count="5" name="VerifyLoginTest_staging">
+<parameter name="Env" value="https://s3test2.remedi.co.in/RemediPRMS/pages/common/login.jsp"></parameter>
+		<classes>
+			<class name="com.Test.Verify_LoginTest"></class>
+		</classes>
+	</test> <!-- VerifyLoginTest -->
+
+	
+	<test thread-count="5" name="VerifyLoginTest_live">
+    <parameter name="Env" value="https://live-admin.remedi.co.in/RemediPRMS/pages/common/login.jsp"></parameter>
+		<classes>
+			<class name="com.Test.Verify_LoginTest"></class>
+		</classes>
+	</test> <!-- VerifyLoginTest -->
+
+
+</suite> <!-- LoginSuite -->
