@@ -47,7 +47,7 @@ public class Library {
 
 	}
 	
-   public static void customActions(WebDriver driver){
+   public static void customActionsdoubleClick(WebDriver driver){
 	   
 	   Actions act = new Actions(driver);
 	   
