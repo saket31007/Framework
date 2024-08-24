@@ -2,6 +2,7 @@ package com.Utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
@@ -45,6 +46,13 @@ public class Library {
 		soft.assertEquals(actual, expected);
 
 	}
+	
+   public static void customActionsdoubleClick(WebDriver driver){
+	   
+	   Actions act = new Actions(driver);
+	   
+	   act.doubleClick();
+   }
 	
 	
 	
