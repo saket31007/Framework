@@ -36,12 +36,7 @@ public class Verify_LoginTest extends BaseClass {
 		//Library.customSoftAssert(Library.customGettitle(driver), config.getExpectedTitle());
 		//System.out.println("reached to next step due soft assert");
 		//Library.soft.assertAll();
-		
-		
-		
-
-		
-	}
+		}
 	
 
 }
