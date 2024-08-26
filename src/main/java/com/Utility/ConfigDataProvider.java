@@ -10,7 +10,7 @@ public class ConfigDataProvider {
 
 	public ConfigDataProvider() throws Exception {
 		//load the config properties from the below mentioned code
-		String filepath ="C:\\Users\\saket\\eclipse-workspace\\Framework\\Config\\Config.Properties";
+		String filepath ="C:\\Users\\NEURO\\eclipse-workspace\\Framework\\Config\\Config.Properties";
 		File src = new File(filepath);
 		FileInputStream fis = new FileInputStream(src);
 		pro =new Properties();

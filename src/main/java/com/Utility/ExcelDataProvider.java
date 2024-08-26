@@ -12,7 +12,7 @@ public class ExcelDataProvider {
 	
 	public ExcelDataProvider() throws Exception {
 		
-		String path = "C:\\Users\\saket\\eclipse-workspace\\Framework\\TestData\\Data.xlsx";
+		String path = "C:\\Users\\NEURO\\eclipse-workspace\\Framework\\TestData\\Data.xlsx";
 		
 		File file = new File(path);
 		FileInputStream fis = new FileInputStream(file);

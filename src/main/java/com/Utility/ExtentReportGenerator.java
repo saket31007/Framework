@@ -13,7 +13,8 @@ public class ExtentReportGenerator {
 	public static ExtentReports extent;
 	public static ExtentReports getReport() {
 	
-	String path = "C:\\Users\\saket\\eclipse-workspace\\Framework\\Reports\\index.html";
+	String path = "C:\\Users\\NEURO\\eclipse-workspace\\Framework\\Reports\\index.html";
+	
 	
 	
 	ExtentSparkReporter rp = new ExtentSparkReporter(path);
