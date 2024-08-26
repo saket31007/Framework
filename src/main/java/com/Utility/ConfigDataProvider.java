@@ -47,4 +47,18 @@ public class ConfigDataProvider {
 		return pro.getProperty("Title");
 	}
 	
+	public String getAdminUsername() {
+		return pro.getProperty("AdminUsername");
+		
+	}
+	
+	public String getAdminPassword() {
+		return pro.getProperty("AdminPassword");
+		
+	}
+	
+	public String getAdminTitle() {
+		return pro.getProperty("AdminTitle");
+		
+	}
 }

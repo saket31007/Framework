@@ -13,13 +13,13 @@ import com.Utility.Library;
 
 public class Verify_LoginTest extends BaseClass {
 	
-	
+	public static LoginPom login;
 	
 	@Test
 	public void verify_loginwithValidCredentials() {
 		//loading/initialitopn the webelemnts into the testclass from loginpom class using pagefactory class
 		
-		LoginPom login =PageFactory.initElements(driver, LoginPom.class);
+		 login =PageFactory.initElements(driver, LoginPom.class);
 		
 //		login.getUsername().sendKeys(excel.getStringData("LoginSheet", 0, 0));
 //		login.getPassword().sendKeys(config.getStagepassword());
@@ -37,6 +37,9 @@ public class Verify_LoginTest extends BaseClass {
 		//System.out.println("reached to next step due soft assert");
 		//Library.soft.assertAll();
 		}
+	
+	
+	
 	
 
 }

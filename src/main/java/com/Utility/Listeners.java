@@ -41,6 +41,8 @@ public class Listeners extends BaseClass implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		
 		extenttest.get().log(Status.FAIL, "Test Case Fail");
+		
+		
 		extenttest.get().addScreenCaptureFromBase64String(captureScreenshot(), "Test case fail screenshot");
 		
 	}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AdminLogin">
+<listeners>
+<listener class-name="com.Utility.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Verify_admin_Login">
+
+<parameter name="Env" value="https://s3test2.remedi.co.in/RemediPRMS/pages/common/login.jsp"></parameter>
+
+    <classes>
+      <class name="com.Test.VerifyAdmin_Login"/>
+    </classes>
+  </test> <!-- Verify_admin_Login -->
+</suite> <!-- AdminLogin -->
